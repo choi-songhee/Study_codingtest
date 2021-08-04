@@ -106,4 +106,11 @@ export default {
     font-weight: normal;
   }
 }
+@media (max-width: 767px) {
+  .fullBleed-wrap {
+    height: auto;
+    margin-top: 50px;
+    padding: 25px;
+  }
+}
 </style>

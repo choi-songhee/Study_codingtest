@@ -54,7 +54,7 @@ export default {
 <style lang="scss" scoped>
 .profile-wrap {
   display: flex;
-  margin-top: 70px;
+  margin: 4.167vw auto 0;
   padding: 0;
   font-size: 0;
   li {
@@ -114,11 +114,26 @@ export default {
 @media (max-width: 767px) {
   .profile-wrap {
     flex-wrap: wrap;
+    margin-top: 40px;
     li {
-      flex: 1 0 auto;
+      flex: 1 0 100%;
       margin-top: 50px;
       &:first-child {
         margin-top: 0;
+      }
+      .profile {
+        &-name {
+          margin-bottom: 2.381vw;
+          font-size: 16px;
+        }
+        &-desc {
+          max-height: 45px;
+          height: 45px;
+          font-size: 12px;
+        }
+        &-link {
+          font-size: 14px;
+        }
       }
     }
   }

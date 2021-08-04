@@ -36,13 +36,22 @@ body {
   color: #000;
 }
 .inner {
-  padding: 120px 80px 0;
+  max-width: 1680px;
+  margin: auto;
+  padding: 7.143vw 4.762vw 0;
   .title {
     font-size: 48px;
     line-height: 1.5;
     letter-spacing: -0.72px;
     font-family: 'Exo2';
     font-weight: normal;
+  }
+}
+@media (max-width: 767px) {
+  .inner {
+    .title {
+      font-size: 24px;
+    }
   }
 }
 </style>
